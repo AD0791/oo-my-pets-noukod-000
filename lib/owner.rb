@@ -41,7 +41,7 @@ class Owner
     pets[:dogs] << Dog.new(name)
   end
   
-  # walking the dogs changes the behavior of the dog class
+  #  change the behavior of the dog, fish, cat class
   
   def walk_dogs
     pets[:dogs].each{|dog| dog.mood = "happy"}
